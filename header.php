@@ -1,7 +1,3 @@
-<div class="top-layer">
-    <header class="header">
-        <hero class="hero">
-            <img class="header-image" src="assets/hero.png" />
-        </hero>
-    </header>
-</div>
+<header class="hero">
+    <img class="hero-image" src="assets/hero/hero-w-gradient.svg" />
+</header>

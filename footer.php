@@ -1,22 +1,29 @@
         <div class="bottom-layer">            
             <div class="footer">
-                <div class="logo-wrapper">
-                    <div class="bio-sne">Bio</div>
-                    <div class="retro">Retro</div>
-                    <div class="logotypen"><img src="logotype"></div>
-                    <div class="nautica">nautica</div>
-                </div>
-                <div class="slogan"><p>UPPLEV FRAMTIDEN - SOM i DÅTIDEN</p></div>
-                <div class="social-media-wrapper">
-                    <img class="facebook" src="assets/facebook.png" />
-                    <p class="light-weight-font">/retronautica</p>
-                    <img class="instagram" src="assets/instagram.png" />
-                    <p class="light-weight-font">@retronautica</p>
-                    <img class="twitter" src="assets/twitter.png" />
-                    <p class="light-weight-font">@retronautica</p>
-                    <img class="light-weight-font" src="assets/mail.png" />
-                    <p class="light-weight-font">do-not-panic@retronautica.se</p>
-                </div>
+               <div class="logotype-footer">
+                <img class="big-logo-footer" src="assets/footer/footer logo.svg" />
+               </div>
+               <div class="footer-text">
+                    <p class="footer-text-para">UPPLEV FRAMTIDEN - SOM I DÅTIDEN</p>
+               </div>
+               <div class="footer-socialmedia-icons-wrapper">
+                    <div class="footer-socialmedia-icons">
+                        <img class="icon" src="assets/footer/facebook.png" />
+                        <p>/Retronautica</p>
+                    </div>
+                    <div class="footer-socialmedia-icons">
+                        <img class="icon" src="assets/footer/twitter.png" />
+                        <p>@retronautica</p>
+                    </div>
+                    <div class="footer-socialmedia-icons">
+                        <img class="icon" src="assets/footer/instagram.png" />
+                        <p>@bio-retronautica</p>
+                    </div>
+                    <div class="footer-socialmedia-icons">
+                        <img class="icon" src="assets/footer/email.png" />
+                        <p>do-not-panic@bioretronautica.se</p>
+                    </div>
+               </div>
             </div>             
         </div>        
     </body>

@@ -460,6 +460,11 @@ h2{
         line-height: normal;
     }
 }
+@media (min-width: 1129px){
+    .detail-image{        
+        width: 50%;        
+    }
+}
 @media (max-width: 1128px){
     .main-content-wrapper {
         width: 100%;
@@ -474,12 +479,16 @@ h2{
         justify-content: space-around;
     }
     .detail-text {
-        /* margin: 0.3rem; */
+        text-align: center;
+        margin: 0.3rem;
         color: var(--detail-text-color);
         font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
+    }
+    .detail-image{        
+        width: 90%;        
     }
     .infobox-image-wrapper {
     display: none;
@@ -575,10 +584,11 @@ h2{
         padding: 0.9375rem 0rem;
         flex-direction: column;
     }
-    .mobile-hero-card {        
+    .mobile-hero-card {
+        text-align: center;
         display: flex;
         color: var(--secondary-color);
-        font-family: 'Orbitron', sans-serif;        
+        font-family: 'Orbitron', sans-serif;
         flex-direction: column;
         flex-wrap: wrap;
         align-content: space-around;
@@ -613,7 +623,8 @@ h2{
         justify-content: space-around;
     }
     .detail-text {
-        font-size: 0.75rem;        
+        text-align: center;
+        font-size: 0.75rem;
         color: var(--detail-text-color);
         font-family: 'Roboto', sans-serif;
         font-style: normal;
@@ -659,4 +670,83 @@ h2{
         justify-content: center;
     }
     /*footer end*/
+    /*mobile-buy start*/
+    .infobox-wrapper-mobile-buy {
+        background-size: 80% 91%;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-image: url(assets/enYttresträckadRam.png);
+    }
+    .infobox-mobile{        
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        width: 75%;
+        border: solid var(--secondary-color) 2px;
+        display: flex;
+        gap: 1.25rem;        
+    }
+    .mobile-buy-ticket-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .mobile-buy-header{
+        font-family: 'Orbitron', sans-serif;        
+        font-style: normal;        
+        line-height: normal;
+        text-align: center;
+    }
+    .mobile-buy-header > h1{
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .mobile-buy-header > p{
+        font-family: 'Roboto', sans-serif;
+        font-size: 0.75rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        color:var(--detail-text-color);
+    }
+    .infobox-topText-mobile{
+        color: var(--secondary-color);
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 0.625rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+
+    }
+    .mobile-infobox-header{
+        font-family: 'Orbitron', sans-serif;
+        font-size: 0.75rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .infobox-storyText-mobile{
+        font-family: 'Roboto', sans-serif;
+        font-size: 0.625rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+        color: var(--detail-text-color);
+    }
+    .infobox-btn-mobile{
+        width: 3.1875rem;
+        height: 1.875rem;
+    }
+    .big-btn-mobile{
+        width: 7.5305rem;
+        height: 2.55719rem;
+        padding-bottom: 0px;
+    }
 }

@@ -1,7 +1,9 @@
-.hero-detail-wrapper{
+.hero-detail-wrapper {
+  margin-bottom: 2rem;
+  top: 3rem;
+  position: relative;
   width: 100vw;
   width: 100dvw;
-  
 }
 .hero-img-wrapper {
   background-image: url(assets/detalj-heroplanch.png);

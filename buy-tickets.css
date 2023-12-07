@@ -1,0 +1,92 @@
+.buy-tickets-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tickets-text-container {
+  display: flex;
+  flex-direction: column;
+}
+.tickets-header {
+  text-align: center;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: var(--secondary-color);
+}
+.tickets-header > h2{
+  margin-bottom: 0;
+}
+.tickets-p {
+  margin-top: 0;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--tertiary-color);
+}
+
+/*ticket box start*/
+.tickets-box-outer-border {
+  width: 90%;
+  border-image-slice: 11 8 14 9;
+  border-image-width: 5% 3% 7% 3%;
+  border-image-outset: 10px 0px 10px 0px;
+  border-image-repeat: stretch stretch;
+  border-image-source: url(assets/biljettköp.png);
+  border-style: solid;
+}
+.tickets-box-inner-border {
+  display: flex;
+  border: solid 2px var(--secondary-color);
+  margin: 0.6rem;
+  flex-direction: column;
+}
+.ticket-box-header {
+  color: var(--secondary-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+.ticket-box-header > h2 {
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0.1rem;
+}
+.ticket-box-header > h4 {
+  text-align: center;
+  width: 80%;
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem;
+}
+.ticket-box-p {
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+.ticket-box-buttons-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+.date-btn {
+  height: 2rem;
+  width: 30%;
+  border: 2px solid var(--secondary-color);
+  border-radius: 18%;
+  padding: 0.2rem;
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+}

@@ -30,26 +30,27 @@
 /*ticket box start*/
 .tickets-box-outer-border {
   width: 90%;
-  border-image-slice: 11 8 14 9;
-  border-image-width: 5% 3% 7% 3%;
+  border-image-slice: 16 10 16 10;
+  border-image-width: 5% 5% 5% 5%;
   border-image-outset: 10px 0px 10px 0px;
   border-image-repeat: stretch stretch;
   border-image-source: url(assets/biljettköp.png);
   border-style: solid;
   margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 .tickets-box-inner-border {
   display: flex;
-  border: solid 2px var(--secondary-color);
   margin: 0.6rem;
   flex-direction: column;
+  padding: 0.5rem;
 }
 .ticket-box-header {
   color: var(--secondary-color);
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0;
+  margin: 0.5rem 0 0.5rem 0;
 }
 .ticket-box-header > h2 {
   font-size: 0.75rem;
@@ -68,6 +69,17 @@
   margin-top: 0.1rem;
   margin-bottom: 0.1rem;
 }
+
+.img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.movieposter{
+  width: 50%;
+}
+
+
 .ticket-box-p {
   font-size: 0.625rem;
   font-style: normal;
@@ -82,13 +94,26 @@
   align-items: center;
   gap: 0.5rem;
   margin-bottom: 1rem;
+  
+}
+.dual-btn-wrapper {
+  width: 50%;
+  gap: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
 }
 .date-btn {
   height: 2rem;
-  width: 30%;
+  width: 50%;
   border: 2px solid var(--secondary-color);
-  border-radius: 18%;
+  border-radius: 10px;
   padding: 0.2rem;
   color: var(--secondary-color);
   background-color: var(--primary-color);
+}
+.buy-btn{
+  width: 100%;
 }

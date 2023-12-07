@@ -1,4 +1,3 @@
-<div class="bg-redeye">
 <div class="detail-header">
   <div class="header-container default-font">
     <h1 class="header-text">
@@ -7,17 +6,25 @@
     <h4 class="header-subtext">
       Sätt kursen mot stjärnorna och fira 35 år av episk rymdodyssé med 2001: A Space Odyssey på Bio Retronautica!
     </h4>
-    <span class="secondary-font white-text">
+    <!-- <span class="secondary-font white-text hideOn-desktop">
+      <p>
+        Ta på dig din rymddräkt och förbered dig på en resa bortom horisonten när Bio Retronautica kastar 
+        sig in i det okända för att hylla ett av de mest ikoniska mästerverken genom tiderna. 35 år av 
+        kosmisk briljans förtjänar en hyllning som når bortom stjärnorna, och vi är redo att leverera!
+      </p>
+    </span> -->
+  </div>  
+</div>
+<div class="bg-redeye">
+<!--detailheader was here -->
+<div class="redeye-textWrapper secondary-font white-text heavy-weight">
+  <span class="secondary-font white-text">
       <p>
         Ta på dig din rymddräkt och förbered dig på en resa bortom horisonten när Bio Retronautica kastar 
         sig in i det okända för att hylla ett av de mest ikoniska mästerverken genom tiderna. 35 år av 
         kosmisk briljans förtjänar en hyllning som når bortom stjärnorna, och vi är redo att leverera!
       </p>
     </span>
-  </div>  
-</div>
-
-  <div class="redeye-textWrapper secondary-font white-text heavy-weight">
     <h4 class="redeye-header">FIRA RYMDENS MAGI MED OSS</h4>
     <p class="redeye-p">
       2001: A Space Odyssey är inte bara en film, det är en resa in i det outforskade. 

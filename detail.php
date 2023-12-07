@@ -1,3 +1,4 @@
+<div class="bg-redeye">
 <div class="detail-header">
   <div class="header-container default-font">
     <h1 class="header-text">
@@ -15,7 +16,7 @@
     </span>
   </div>  
 </div>
-<div class="bg-redeye">
+
   <div class="redeye-textWrapper secondary-font white-text heavy-weight">
     <h4 class="redeye-header">FIRA RYMDENS MAGI MED OSS</h4>
     <p class="redeye-p">

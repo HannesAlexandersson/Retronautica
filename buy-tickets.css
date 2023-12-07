@@ -36,6 +36,7 @@
   border-image-repeat: stretch stretch;
   border-image-source: url(assets/biljettköp.png);
   border-style: solid;
+  margin-bottom: 2rem;
 }
 .tickets-box-inner-border {
   display: flex;
@@ -80,6 +81,7 @@
   flex-direction: column;
   align-items: center;
   gap: 0.5rem;
+  margin-bottom: 1rem;
 }
 .date-btn {
   height: 2rem;

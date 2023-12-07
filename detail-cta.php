@@ -5,7 +5,7 @@
       <div class="cta-poster-container">
         <img class="cta-poster" src="assets/images/2001-a-space-odyssey-alternative-movie-poster-movie-poster-boy 3.png" alt="space-odessey poster 'evil ai'" />
       </div>
-      <a href="#"><button class="cta-button">Biljetter</button></a>
+      <a href="buy-tickets-index.php"><button class="cta-button">Biljetter</button></a>
     </div>
   </div>
 </div>

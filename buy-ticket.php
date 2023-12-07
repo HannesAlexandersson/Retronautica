@@ -1,4 +1,4 @@
-<div class="buy-tickets-wrapper">
+<!-- <div class="buy-tickets-wrapper">
   <div class="tickets-text-container">
     <div class="tickets-header default-font heavy-weight">
       <h2>2001: A Space Odyssey</h2>
@@ -9,7 +9,7 @@
         superdatorn HAL för att leta efter artefaktens ursprung.
       </p>
     </div>
-  </div>
+  </div> -->
   <div class="tickets-box-outer-border">
     <div class="tickets-box-inner-border">
       <div class="ticket-box-header">

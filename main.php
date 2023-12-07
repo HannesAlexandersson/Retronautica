@@ -64,6 +64,6 @@
                 <div class="box-middle">INFO HEREeeeeeeeeeeee</div>
                 <div class="box-bottom">BUTTON HEREeeeeeeeeeeee</div>
             </div>
-        </div>
+        </div>        
     </div> 
 </div>  

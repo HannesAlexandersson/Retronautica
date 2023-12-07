@@ -1,7 +1,11 @@
-<div class="top-layer">
-    <header class="header">
-        <hero class="hero">
-            <img class="header-image" src="assets/hero.png" />
-        </hero>
-    </header>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>

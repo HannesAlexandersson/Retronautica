@@ -1,0 +1,42 @@
+/* NAVBAR */
+
+.nav-bar {
+  width: 100%;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  gap: 2rem;
+  height: 3rem;
+  flex-shrink: 0;
+  align-self: stretch;
+  font-family: "Orbitron", monospace;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+.logo-navbar{
+  width: 20%;
+}
+a:hover {
+  text-decoration: none;
+  color: var(--pop-color);
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.search-burger-icons {
+  gap: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+/* END NAVBAR */

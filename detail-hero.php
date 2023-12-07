@@ -1,7 +1,5 @@
-<div class="top-layer">
-    <header class="header">
-        <hero class="hero">
-            <img class="header-image" src="assets/detalj-heroplanch.png" />
-        </hero>
-    </header>
-</div>
+<hero class="hero-detail-wrapper">
+  <div class="hero-img-wrapper">
+    
+  </div>
+</hero>

@@ -1,0 +1,64 @@
+/* FOOTER */
+
+.footer {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.05rem;
+}
+
+.logo-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: calc(50%);
+}
+
+.footer-logo {
+  /* height: 100%; */
+  width: 10rem;
+}
+
+.slogan {
+  text-align: center;  
+  font-size: 0.5rem;  
+}
+
+.social-media-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: calc(25%);
+}
+.social-icon{
+  width: 20%;
+}
+.socials-pair-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.social-link, .footer-link {/*TA BORT NÅGRA LINKS OCH SOCIAL MEDIA ICONS? FÖR MÅNGA FÅR EJ PLATS!*/
+  font-family: "Roboto", sans-serif;
+  font-size: 0.6rem;
+  font-weight: 400;
+  color: var(--primary-color);
+}
+
+.footer-links-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  width: calc(25%);
+}
+
+.footer-link {
+  text-align: right;
+}

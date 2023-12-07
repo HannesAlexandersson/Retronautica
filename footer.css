@@ -119,7 +119,8 @@
 
 .footer-links-wrapper {
   width: 25%;
-  padding-right: 0.19rem;
+  /* padding-right: 0.19rem; utan dynamiska värden göms texten av scrollbaren*/
+  padding-right: 1.2dvw;/*för att scrollbaren inte ska gömma texten*/
   display: flex;
   flex-direction: column;
   gap: 0.5rem;

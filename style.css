@@ -19,12 +19,13 @@ body {
   flex-direction: column;
   align-items: center;
   font-family: "Orbitron", sans-serif;
+  overscroll-behavior: none;
 }
 
 /* NAVBAR */
 
 .nav-bar {
-  width: 100%;
+  width: 100vw;
   background-color: var(--secondary-color);
   color: var(--primary-color);
   display: flex;
@@ -34,7 +35,7 @@ body {
   flex-direction: row;
   padding: 10px;
   gap: 20px;
-  height: 70px;
+  /*height: calc(70px - 10px);*/
   flex-shrink: 0;
   align-self: stretch;
   font-family: "Orbitron", monospace;
@@ -69,11 +70,12 @@ a:hover {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  height: 100%;
+  width: 100%;
 }
 
 .hero-image {
-  width: 100%;
-  max-width: 1400px;
+  width: calc(100%);
 }
 
 /*END HERO*/
@@ -81,14 +83,13 @@ a:hover {
 /* MAIN */
 
 main {
-  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 2rem;
-  padding-left: 50px;
-  padding-right: 50px;
+  /*padding-left: 50px;
+  padding-right: 50px;*/
 }
 
 .offer {
@@ -98,8 +99,6 @@ main {
   align-items: center;
   justify-content: center;
   width: 100%;
-  padding-left: 50px;
-  padding-right: 50px;
   gap: 20px;
 }
 
@@ -107,7 +106,7 @@ main {
   font-family: "Orbitron", monospace;
   color: var(--tertiary-color);
   font-weight: 600;
-  font-size: 20px;
+  font-size: 25px;
   letter-spacing: 9px;
 }
 
@@ -156,7 +155,7 @@ svg image {
 .button {
   scale: 75%;
   position: absolute;
-  bottom: 0;
+  bottom: 5px;
   padding-bottom: 5px;
 }
 
@@ -172,8 +171,28 @@ svg image {
 .signup-wrapper {
   display: flex;
   flex-direction: column;
-  position: relative;
-  scale: 50%;
+  justify-content: center;
+  height: 300px;
+  width: 480px;
+  border-image-slice: 15 12 15 12;
+  border-image-width: 20px 20px 20px 20px;
+  border-image-outset: 0px 0px 0px 0px;
+  border-image-repeat: stretch stretch;
+  border-image-source: url("assets/new\ frames/signup desktop.svg");
+  border-style: solid;
+  margin-bottom: 40px;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--secondary-color);
+  margin: 0 auto;
+  height: calc(100% - 30px);
+  width: calc(100% - 30px);
+  padding: 40px;
 }
 
 .signup-text {
@@ -182,11 +201,17 @@ svg image {
   color: var(--tertiary-color);
 }
 
+.signup-headline {
+  font-family: "Orbitron", sans-serif;
+  font-size: 1.5rem;
+  color: var(--secondary-color);
+  margin: 0;
+  padding: 0;
+}
+
 .form {
   gap: 1rem;
-  height: 57%;
   display: flex;
-  width: 60%;
   flex-direction: column;
   align-items: center;
 }
@@ -281,6 +306,75 @@ svg image {
 
 /* @MEDIA QUERIES */
 
+@media screen and (max-width: 380px) {
+  .socials-pair-wrapper > a {
+    display: none;
+  }
+  .social-media-wrapper {
+    justify-content: space-evenly;
+  }
+  .footer-links-wrapper > a {
+    font-size: 8px !important;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .offer-heading > p {
+    font-size: 10px;
+    letter-spacing: 4px;
+  }
+  .offer-details > p {
+    font-size: 10px;
+  }
+  .signup-wrapper {
+    width: 300px;
+    margin-bottom: 15px;
+  }
+  .signup-headline {
+    font-size: 1rem;
+  }
+  .form {
+    text-align: center;
+    gap: 0.5rem;
+  }
+  .form > .form-label {
+    font-size: 12px;
+  }
+  .footer {
+    flex-direction: column-reverse;
+    padding: 5px;
+  }
+  .social-media-wrapper {
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .footer-links-wrapper {
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .footer-links-wrapper > a {
+    font-size: 10px;
+  }
+  .socials-pair-wrapper {
+    gap: 3px;
+  }
+  .socials-pair-wrapper > a {
+    font-size: 10px;
+  }
+  .socials-pair-wrapper > img {
+    height: 20px;
+    width: 20px;
+  }
+  .logo-wrapper {
+    width: 80%;
+  }
+  .slogan {
+    font-size: 8px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .wrapper {
     flex-wrap: wrap;
@@ -293,5 +387,31 @@ svg image {
   .nav-logo,
   .nav-burger {
     scale: 75%;
+  }
+  .nav-bar {
+    padding: 0 10px 0 10px;
+    height: scale(75%);
+  }
+  .headline {
+    font-size: 16px;
+  }
+  .current,
+  .future {
+    gap: 0;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .offer {
+    flex-direction: column;
+    gap: 0;
+  }
+  .offer-heading > p,
+  .offer-details > p {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  .offer-heading {
+    font-size: 20px;
   }
 }

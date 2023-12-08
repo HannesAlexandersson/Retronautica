@@ -33,6 +33,7 @@
         <a class="footer-link">Retronauterna</a>
     </div>
 </div>
+<script src="navbar-script.js"></script>
 </body>
 
 </html>

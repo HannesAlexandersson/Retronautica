@@ -24,6 +24,10 @@ body {
 
 /* NAVBAR */
 
+.mobile-hide {
+  display: none;
+}
+
 .nav-bar {
   width: 100vw;
   background-color: var(--secondary-color);
@@ -31,16 +35,22 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  display: flex;
   flex-direction: row;
-  padding: 10px;
-  gap: 20px;
-  /*height: calc(70px - 10px);*/
+  padding: 1rem;
+  gap: 2rem;
+  height: 4.5rem;
   flex-shrink: 0;
   align-self: stretch;
-  font-family: "Orbitron", monospace;
-  font-size: 16px;
-  font-weight: 400;
+  position: fixed;
+  z-index: 5;
+}
+
+.nav-bar.animate {
+  top: -100px;
+}
+.nav-bar.sticky {
+  top: 0;
+  z-index: 99;
 }
 
 a:hover {
@@ -56,7 +66,7 @@ a:hover {
 }
 
 .search-burger-icons {
-  gap: 20px;
+  gap: 1rem;
   display: flex;
   flex-direction: row;
 }
@@ -72,6 +82,8 @@ a:hover {
   flex-direction: column;
   height: 100%;
   width: 100%;
+  position: relative;
+  top: 4rem;
 }
 
 .hero-image {
@@ -333,6 +345,12 @@ svg image {
   .signup-headline {
     font-size: 1rem;
   }
+  .signup-text {
+    font-size: 11px;
+  }
+  .content-wrapper {
+    padding: 20px 20px 10px 20px;
+  }
   .form {
     text-align: center;
     gap: 0.5rem;
@@ -385,12 +403,21 @@ svg image {
     padding-right: 20px;
   }
   .nav-logo,
-  .nav-burger {
+  .nav-burger,
+  .nav-search {
     scale: 75%;
   }
-  .nav-bar {
+  .search-burger-icons {
+    gap: 0.5rem;
+  }
+  /* .nav-bar {
     padding: 0 10px 0 10px;
     height: scale(75%);
+  } */
+  .nav-bar {
+    gap: 2rem;
+    padding: 0 1rem 0 0;
+    height: 4rem;
   }
   .headline {
     font-size: 16px;

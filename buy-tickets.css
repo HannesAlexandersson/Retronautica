@@ -1,3 +1,6 @@
+.hide-mobile{
+  display: none;
+}
 .buy-tickets-wrapper {
   display: flex;
   flex-direction: column;

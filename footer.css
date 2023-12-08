@@ -131,6 +131,9 @@
 }
 
 @media (min-width: 800px) {
+  .hide-desktop{
+    display: none;
+  }
 /*nav*/
 .nav-bar {  
   gap: 2rem;
@@ -172,20 +175,75 @@ text-decoration: none;
   margin: 0rem 2rem 0rem 2rem;
   font-size: 0.9rem;
 }
-.tickets-box-outer-border {
-  max-width: 820px;
+/*buytickets*/
+
+.tickets-box-outer-border-desktop {
+  padding: 3rem;
+  width: 90%;
+  border-image-slice: 16 28 20 23;
+  border-image-width: 5% 5% 5% 5%;
+  border-image-outset: 0px 23px 0px 1px;
+  border-image-repeat: stretch stretch;
+  border-image-source: url(assets/biljettköp.png);
+  border-style: solid;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  display: flex;
 }
-.date-btn {
-  font-size: 1.25rem;
-  height: 2.5rem;  
+.tickets-box-inner-border-desktop {  
+  display: flex; 
+  padding: 0.5rem;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
 }
-.ticket-box-buttons-wrapper {  
-  gap: 1rem; 
+.img-wrapper-desktop {
+  width: 30%;
+  display: flex;
+  align-content: center;
+  justify-content: flex-end;
+  align-items: center;
 }
-.buy-btn {
-  height: 3.5rem;
-  margin-bottom: 0.8rem;
+.movieposter-desktop {
+  width: 90%;
 }
+.wrapper {
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+  align-items: center;
+}
+.ticket-box-header-desktop {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  color: var(--secondary-color);
+  flex-direction: column;
+  align-items: center;
+}
+.ticket-box-p-desktop {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ticket-box-buttons-wrapper-desktop {
+  display: flex;
+  width: 100%;
+  gap: 0.5rem;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.date-btn{
+  font-family: "Orbitron", sans-serif;
+}
+
+/*buytickets*/
+
+
+
 
 .slogan {
   text-align: center;
@@ -198,6 +256,9 @@ text-decoration: none;
 @media (min-width: 900px) {
   .nav-links-container {
     gap: 3rem;
+  }
+  .hide-desktop{
+    display: none;
   }
 }
 @media (min-width: 1050px){

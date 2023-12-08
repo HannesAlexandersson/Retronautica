@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="detail.css" />
     <link rel="stylesheet" href="detail-cta.css" />
     <link rel="stylesheet" href="buy-tickets.css" />
+    <!-- <link rel="stylesheet" href="tickeets-desktop.css" /> -->
     <link rel="stylesheet" href="footer.css" />
     <title>Bio Retronautica</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">

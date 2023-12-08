@@ -7,10 +7,11 @@
 }
 .nav-bar {
   width: 100vw;
+  width: 100dvw;
   background-color: var(--secondary-color);
   color: var(--primary-color);
-  display: flex;
-  justify-content: center;
+ 
+  justify-content: space-between;
   align-items: center;
   display: flex;
   flex-direction: row;

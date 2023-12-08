@@ -4,6 +4,7 @@
   background-color: var(--secondary-color);
   color: var(--primary-color);
   width: 100vw;
+  width: 100dvw;
   display: flex;
   flex-direction: column-reverse;
   gap: 1rem;
@@ -137,7 +138,7 @@
   position: fixed;
 }
 .nav-links-container {
-  gap: 1rem;
+  gap: 2rem;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -194,7 +195,11 @@ text-decoration: none;
   width: 24rem;
 }
 }
-
+@media (min-width: 900px) {
+  .nav-links-container {
+    gap: 3rem;
+  }
+}
 @media (min-width: 1050px){
   .nav-links-container {
     gap: 4rem;

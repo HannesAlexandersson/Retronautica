@@ -23,6 +23,7 @@
     background-color: var(--primary-color);
     width: 100vw;
     width: 100dvw;
+    width: 100svw;
    
     display: flex;
     flex-direction: column;

@@ -54,10 +54,10 @@
       <img class="movieposter-desktop" src="assets/images/2001-a-space-odyssey-alternative-movie-poster-movie-poster-boy 3.png" alt="2001: A Space Odyssey poster" />
     </div>
     <div class="wrapper">
-      <div class="ticket-box-header-desktop default-font">
-          <h2>2001: A Space Odyssey</h2>
-          <h4><strong>Regissör:</strong> Stanley Kubrick</h4>
-          <h4><strong>Medverkande:</strong> Keir Duella, Gary Lockwood och William Sylvester</h4>        
+      <div class="ticket-box-header-desktop">
+          <h2 class="default-font">2001: A Space Odyssey</h2>
+          <h4 class="secondary-font"><strong>Regissör:</strong> Stanley Kubrick</h4>
+          <h4 class="secondary-font"><strong>Medverkande:</strong> Keir Duella, Gary Lockwood och William Sylvester</h4>        
       </div>
       <div class="ticket-box-p-desktop white-text secondary-font">
           <p>
@@ -66,20 +66,20 @@
             med filmvisning <strong>21:00</strong>.
           </p>
       </div>
-      <div class="ticket-box-buttons-wrapper-desktop secondary-font">
-        <div class="dual-btn-wrapper secondary-font">
-          <button class="date-btn">31/11</button>
-          <button class="date-btn">1/12</button>
+      <div class="ticket-box-buttons-wrapper-desktop default-font">
+        <div class="dual-btn-wrapper default-font">
+          <button class="date-btn default-font">31/11</button>
+          <button class="date-btn default-font">1/12</button>
        
-          <button class="date-btn">2/12</button>
-          <button class="date-btn">3/12</button>
+          <button class="date-btn default-font">2/12</button>
+          <button class="date-btn default-font">3/12</button>
        
        
-          <button class="date-btn">4/12</button>
-          <button class="date-btn">5/12</button>
+          <button class="date-btn default-font">4/12</button>
+          <button class="date-btn default-font">5/12</button>
         </div>
-        <div class="dual-btn-wrapper secondary-font">
-          <button class="date-btn buy-btn secondary-font">KÖP</button>
+        <div class="dual-btn-wrapper default-font">
+          <button class="date-btn buy-btn default-font">KÖP</button>
         </div>
       </div>
     </div>

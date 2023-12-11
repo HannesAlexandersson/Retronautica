@@ -1,13 +1,13 @@
 <svg width="260" height="380" viewBox="0 0 260 380" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_425_766)">
-<rect x="11" y="11" width="238" height="358" stroke="#04FCCF" stroke-width="2"/>
-<path d="M0.5 82.5V126.5" stroke="#04FCCF" stroke-width="2"/>
-<path d="M0.5 195V326" stroke="#04FCCF" stroke-width="2"/>
-<path d="M259.5 99.5V156" stroke="#04FCCF" stroke-width="2"/>
-<path d="M157.5 379.5H256.5" stroke="#04FCCF" stroke-width="2"/>
-<path d="M239.5 0.5H219.5" stroke="#04FCCF" stroke-width="2"/>
-<path d="M203.5 0.5H170.5" stroke="#04FCCF" stroke-width="2"/>
-<path d="M0.5 46.5V73" stroke="#04FCCF" stroke-width="2"/>
+<rect x="11" y="11" width="238" height="358" stroke="#04FCCF" stroke-width="0.5"/>
+<path d="M0.5 82.5V126.5" stroke="#04FCCF" stroke-width="0.5"/>
+<path d="M0.5 195V326" stroke="#04FCCF" stroke-width="0.5"/>
+<path d="M259.5 99.5V156" stroke="#04FCCF" stroke-width="0.5"/>
+<path d="M157.5 379.5H256.5" stroke="#04FCCF" stroke-width="0.5"/>
+<path d="M239.5 0.5H219.5" stroke="#04FCCF" stroke-width="0.5"/>
+<path d="M203.5 0.5H170.5" stroke="#04FCCF" stroke-width="0.5"/>
+<path d="M0.5 46.5V73" stroke="#04FCCF" stroke-width="0.5"/>
 </g>
 <defs>
 <clipPath id="clip0_425_766">

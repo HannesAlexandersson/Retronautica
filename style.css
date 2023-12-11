@@ -99,9 +99,11 @@ main {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 2rem;
-  /*padding-left: 50px;
-  padding-right: 50px;*/
+  gap: 45px;
+  margin-top: 65px;
+  padding-left: 120px;
+  padding-right: 120px;
+  width: 100%;
 }
 
 .offer {
@@ -112,6 +114,7 @@ main {
   justify-content: center;
   width: 100%;
   gap: 20px;
+  z-index: 2;
 }
 
 .offer-heading {
@@ -154,14 +157,56 @@ svg image {
   display: flex;
   /*flex-wrap: wrap;*/
   justify-content: center;
+  gap: 45px;
 }
 
 .poster {
   display: flex;
-  scale: 75%;
-  position: relative;
-  align-items: center;
+  padding: 10px;
   justify-content: center;
+  align-items: center;
+  border-image-slice: 10 10 10 10;
+  border-image-width: 20px 20px 20px 20px;
+  border-image-outset: 0px 0px 0px 0px;
+  border-image-repeat: stretch stretch;
+  border-style: solid;
+  height: 312px;
+  width: 214px;
+  object-fit: contain;
+  overflow: hidden;
+}
+
+.poster-wrapper {
+  display: flex;
+  justify-content: center;
+  border: 1px solid var(--secondary-color);
+  object-fit: contain;
+  overflow: hidden;
+  height: calc(100%);
+}
+
+.poster > img {
+  border: 1px solid var(--secondary-color);
+  object-fit: contain;
+  overflow: hidden;
+  justify-self: center;
+  align-self: center;
+}
+
+.first-frame {
+  border-image-source: url("assets/new frames/poster-frame1.svg");
+}
+
+.second-frame {
+  border-image-source: url("assets/new frames/poster-frame2.svg");
+}
+
+.third-frame {
+  border-image-source: url("assets/new frames/poster-frame3.svg");
+}
+
+.fourth-frame {
+  border-image-source: url("assets/new frames/poster-frame4.svg");
 }
 
 .button {
@@ -176,6 +221,7 @@ svg image {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  width: 100%;
 }
 
 /* SIGN-UP */
@@ -192,6 +238,7 @@ svg image {
   border-image-repeat: stretch stretch;
   border-image-source: url("assets/new\ frames/signup desktop.svg");
   border-style: solid;
+  margin-top: 40px;
   margin-bottom: 40px;
 }
 
@@ -340,6 +387,7 @@ svg image {
   }
   .signup-wrapper {
     width: 300px;
+    margin-top: 15px;
     margin-bottom: 15px;
   }
   .signup-headline {
@@ -391,16 +439,23 @@ svg image {
   .slogan {
     font-size: 8px;
   }
+  main {
+    gap: 15px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .wrapper {
     flex-wrap: wrap;
   }
+  .poster {
+    height: 234px;
+    width: 160px;
+  }
   main {
     width: 100%;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
   .nav-logo,
   .nav-burger,
@@ -410,10 +465,6 @@ svg image {
   .search-burger-icons {
     gap: 0.5rem;
   }
-  /* .nav-bar {
-    padding: 0 10px 0 10px;
-    height: scale(75%);
-  } */
   .nav-bar {
     gap: 2rem;
     padding: 0 1rem 0 0;
@@ -422,12 +473,11 @@ svg image {
   .headline {
     font-size: 16px;
   }
-  .current,
-  .future {
-    gap: 0;
+  .wrapper {
+    gap: 10px;
   }
 }
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 1024px) {
   .offer {
     flex-direction: column;
     gap: 0;
@@ -440,5 +490,19 @@ svg image {
   }
   .offer-heading {
     font-size: 20px;
+  }
+  .wrapper {
+    gap: 10px;
+  }
+  main {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  @media screen and (max-width: 1130px) {
+    .current,
+    .future {
+      flex-wrap: wrap;
+    }
   }
 }

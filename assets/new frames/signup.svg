@@ -1,14 +1,14 @@
 <svg width="571" height="376" viewBox="0 0 571 376" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_589_1410)">
-<path d="M90.3693 4.97183H165.627" stroke="#04FCCF" stroke-width="1.32583"/>
-<path d="M281.789 4.97183H334.822" stroke="#04FCCF" stroke-width="1.25429"/>
-<path d="M405.964 4.97183H531.394" stroke="#04FCCF" stroke-width="1.25429"/>
-<line x1="1.84569" y1="235.815" x2="1.84569" y2="139.107" stroke="#04FCCF" stroke-width="1.32583"/>
-<rect x="13.2059" y="15.6238" width="543.674" height="343.674" stroke="#04FCCF" stroke-width="1.32583"/>
-<line x1="568.24" y1="162.375" x2="568.24" y2="212.547" stroke="#04FCCF" stroke-width="1.32583"/>
-<path d="M90.3693 369.995H215.799" stroke="#04FCCF" stroke-width="1.25429"/>
-<path d="M279.768 369.995H335.158" stroke="#04FCCF" stroke-width="1.25429"/>
-<path d="M484.99 369.995H531.394" stroke="#04FCCF" stroke-width="1.25429"/>
+<path d="M90.3693 4.97183H165.627" stroke="#04FCCF" stroke-width="1"/>
+<path d="M281.789 4.97183H334.822" stroke="#04FCCF" stroke-width="1"/>
+<path d="M405.964 4.97183H531.394" stroke="#04FCCF" stroke-width="1"/>
+<line x1="1.84569" y1="235.815" x2="1.84569" y2="139.107" stroke="#04FCCF" stroke-width="1"/>
+<rect x="13.2059" y="15.6238" width="543.674" height="343.674" stroke="#04FCCF" stroke-width="1"/>
+<line x1="568.24" y1="162.375" x2="568.24" y2="212.547" stroke="#04FCCF" stroke-width="1"/>
+<path d="M90.3693 369.995H215.799" stroke="#04FCCF" stroke-width="1"/>
+<path d="M279.768 369.995H335.158" stroke="#04FCCF" stroke-width="1"/>
+<path d="M484.99 369.995H531.394" stroke="#04FCCF" stroke-width="1"/>
 </g>
 <defs>
 <clipPath id="clip0_589_1410">

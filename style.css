@@ -178,6 +178,7 @@ svg image {
 
 .poster-wrapper {
   display: flex;
+  position: relative;
   justify-content: center;
   border: 1px solid var(--secondary-color);
   object-fit: contain;
@@ -210,10 +211,8 @@ svg image {
 }
 
 .button {
-  scale: 75%;
   position: absolute;
   bottom: 5px;
-  padding-bottom: 5px;
 }
 
 .current,
@@ -451,6 +450,10 @@ svg image {
   .poster {
     height: 234px;
     width: 160px;
+  }
+  .button > img {
+    width: 90px;
+    height: 23px;
   }
   main {
     width: 100%;

@@ -1,0 +1,127 @@
+.hide-mobile{
+  display: none;
+}
+.buy-tickets-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tickets-text-container {
+  display: flex;
+  flex-direction: column;
+}
+.tickets-header {
+  text-align: center;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: var(--secondary-color);
+}
+.tickets-header > h2{
+  margin-bottom: 0;
+}
+.tickets-p {
+  margin-top: 0;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--tertiary-color);
+}
+
+/*ticket box start*/
+.tickets-box-outer-border {
+  width: 90%;
+  border-image-slice: 16 10 16 10;
+  border-image-width: 5% 5% 5% 5%;
+  border-image-outset: 10px 0px 10px 0px;
+  border-image-repeat: stretch stretch;
+  border-image-source: url(assets/biljettköp.png);
+  border-style: solid;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.tickets-box-inner-border {
+  display: flex;
+  margin: 0.6rem;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+.ticket-box-header {
+  color: var(--secondary-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.5rem 0 0.5rem 0;
+}
+.ticket-box-header > h2 {
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0.1rem;
+}
+.ticket-box-header > h4 {
+  text-align: center;
+  width: 80%;
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem;
+}
+
+.img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.movieposter{
+  width: 50%;
+}
+
+
+.ticket-box-p {
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+.ticket-box-buttons-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  
+}
+.dual-btn-wrapper {
+  width: 50%;
+  gap: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.date-btn {
+  height: 2rem;
+  width: 50%;
+  border: 2px solid var(--secondary-color);
+  border-radius: 10px;
+  padding: 0.2rem;
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+}
+.buy-btn{
+  width: 100%;
+}
+.date-btn:hover {
+  cursor: pointer;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}

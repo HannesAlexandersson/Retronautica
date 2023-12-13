@@ -1,0 +1,60 @@
+/* NAVBAR */
+
+
+
+.mobile-hide{
+  display: none;
+}
+.nav-bar {
+  width: 100vw;
+  width: 100dvw;
+  width: 100svw;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+ 
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  gap: 2rem;
+  height: 3rem;
+  flex-shrink: 0;
+  align-self: stretch;
+  font-family: "Orbitron", monospace;
+  font-size: 1.25rem;
+  font-weight: 400;
+  position: fixed;
+  z-index: 5;
+}
+
+.nav-bar.animate {
+  top: -100px;
+}
+.nav-bar.sticky {
+  top: 0;
+  z-index: 99;
+}
+.nav-logo {
+  
+}
+.logo-navbar {
+ 
+}
+a:hover {
+  text-decoration: none;
+  color: var(--pop-color);
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;  
+}
+
+.search-burger-icons {
+  gap: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+/* END NAVBAR */

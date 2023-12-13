@@ -1,0 +1,412 @@
+/* FOOTER */
+
+.footer {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  width: 100vw;
+  width: 100dvw;
+  width: 100svw;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.05rem;
+}
+
+.logo-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-logo {  
+  width: 13rem;
+}
+
+.slogan {
+  text-align: center;
+  font-size: 0.5rem;
+}
+
+.social-media-wrapper {
+  gap: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+/* .social-icon {
+  width: 80%;
+} */
+.socials-pair-wrapper {
+  display: flex;
+  flex-direction: row;  
+  align-items: center;
+}
+
+.social-link, .footer-link {/*TA BORT NÅGRA LINKS OCH SOCIAL MEDIA ICONS? FÖR MÅNGA FÅR EJ PLATS!*/
+  font-family: "Roboto", sans-serif;
+  font-size: 0.6rem;
+  font-weight: 400;
+  color: var(--primary-color);
+}
+
+.footer-links-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-link {
+  text-align: right;
+}
+.social-link{
+  display: none;
+}
+@media (min-width: 500px) {
+  .social-link {
+    display: flex;
+  }
+}
+@media (min-width: 547px) {
+  .footer-logo {
+    width: 15rem;
+}
+.social-link, .footer-link {  
+  font-size: 0.9rem;  
+}
+}
+
+@media (min-width: 650px) {
+  .redeye-textWrapper {
+    width: 60%;   
+}
+.bg-redeye {
+  background-image: url(assets/ai-red-eye-half-image.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.white-text {  
+  font-weight: 400;  
+}
+.ticket-box-header > h2 {
+  font-size: 1.5rem;  
+}
+.ticket-box-header > h4 { 
+  font-size: 0.925rem;  
+}
+.movieposter {
+  max-width: 274px;
+}
+.ticket-box-p {
+  font-size: 0.825rem;  
+}
+
+
+.footer {  
+  flex-direction: row;
+}
+.footer-logo {
+  width: 20rem;
+}
+.social-media-wrapper {
+  width: 25%;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-links-wrapper {
+  width: 25%;
+  /* padding-right: 0.19rem; utan dynamiska värden göms texten av scrollbaren*/
+  padding-right: 1.2dvw;/*för att scrollbaren inte ska gömma texten*/
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+}
+
+@media (min-width: 800px) {
+  .hide-desktop{
+    display: none;
+  }
+/*nav*/
+.nav-bar {  
+  gap: 2rem;
+  align-self: stretch;  
+  position: fixed;
+}
+.nav-links-container {
+  gap: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.nav-links-container > a{
+text-decoration: none;
+}
+.nav-links-container > a:hover{
+text-decoration: none;
+}
+.nav-links {
+  font-size: 0.9rem;
+  color: var(--primary-color);
+}
+/*nav ends*/
+  .desktop-hide{
+    display: none;
+  }
+  .header-text {
+    font-size: 2.2rem;
+  }
+  .header-subtext {
+    font-size: 1rem;
+  }
+
+  .redeye-header {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .redeye-p {
+    margin-bottom: 0;
+    margin-top: 0;    
+    font-size: 0.9rem;       
+}
+.white-text {    
+  margin: 0rem 2rem 0rem 2rem;
+  font-size: 0.9rem;
+}
+/*buytickets*/
+
+.tickets-box-outer-border-desktop {
+  padding: 3rem 0 3rem 3rem;
+  width: 90%;
+  border-image-slice: 16 28 20 23;
+  border-image-width: 5% 5% 5% 5%;
+  border-image-outset: 0px 23px 0px 1px;
+  border-image-repeat: stretch stretch;
+  border-image-source: url(assets/biljettköp.png);
+  border-style: solid;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  display: flex;
+}
+.tickets-box-inner-border-desktop {  
+  display: flex; 
+  padding: 0.5rem;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+}
+.img-wrapper-desktop {
+  width: 30%;
+  display: flex;
+  align-content: center;
+  justify-content: flex-end;
+  align-items: center;
+}
+.movieposter-desktop {
+  width: 90%;
+}
+.wrapper {
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+  align-items: center;
+}
+.ticket-box-header-desktop {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  color: var(--secondary-color);
+  flex-direction: column;
+  align-items: center;
+}
+.ticket-box-p-desktop {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ticket-box-buttons-wrapper-desktop {
+  display: flex;
+  width: 100%;
+  gap: 0.5rem;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.dual-btn-wrapper {
+  width: 80%;
+}
+
+/*buytickets*/
+
+
+
+
+.slogan {
+  text-align: center;
+  font-size: 0.9rem;
+}
+.footer-logo {
+  width: 24rem;
+}
+}
+@media (min-width: 900px) {
+  .nav-links-container {
+    gap: 3rem;
+  }
+  .hide-desktop{
+    display: none;
+  }
+  .date-btn {
+    height: 3rem;
+  }
+}
+@media (min-width: 1050px){
+  .nav-links-container {
+    gap: 4rem;
+  }
+  .nav-links {
+    font-size: 1rem;    
+}
+  .header-subtext {
+    margin: 0.1rem 2rem 0rem 2rem;
+  }
+.bg-redeye {
+    height: 34rem;
+}
+.white-text {
+  margin: 1rem 2rem 0rem 2rem;
+}
+.ticket-box-header-desktop > h2 {
+  font-size: 2em;
+}
+.ticket-box-header-desktop > h4 {
+  margin: 0.5rem;
+  font-size: 1.1em;
+}
+.redeye-textWrapper {
+  width: 54%;
+}
+.redeye-header {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.social-link, .footer-link {
+  font-size: 1.2rem;
+}
+.footer-logo {
+  width: 34rem;
+}
+}
+@media (min-width: 1096px){
+  
+  .white-text {    
+    font-size: 1.1rem;
+}
+.redeye-p {  
+  font-size: 1rem;
+}
+.bg-redeye {
+  height: 41rem;
+}
+.header-subtext {
+  margin: 0.1rem 2rem 1rem 2rem;
+}
+}
+
+@media (min-width: 1141px){
+  .nav-links-container {
+    gap: 5rem;
+}
+.white-text {
+  margin: 4rem 2rem 0rem 2rem;
+}
+.ticket-box-p-desktop {
+  margin-top: 1rem;
+}
+.social-media-wrapper {  
+  gap: 2rem;  
+}
+}
+
+@media (min-width: 1337px){
+  .logo-navbar {
+    width: 3rem;
+}
+  .nav-links {
+    font-size: 1.2rem;    
+}
+  .header-subtext {
+    margin: 0.1rem 2rem 1rem 2rem;
+}
+.white-text {
+  margin: 3rem 2rem 0rem 2rem;
+  font-size: 1.3rem;
+}
+  .redeye-header {
+    font-size: 1.3rem;
+    margin-bottom: 0.3rem;
+}
+.redeye-p {
+  font-size: 1.1rem;
+}
+.bg-redeye { 
+  background-size: contain;
+}
+.bg-redeye {
+  height: 40rem;
+}
+
+
+.slogan {  
+  font-size: 1.2rem;
+}
+.social-link, .footer-link {
+  font-size: 1.4rem;
+}
+}
+@media (min-width: 1440px){
+  .redeye-header {
+    margin-top: 1.4rem;
+    font-size: 1.5rem;
+    margin-bottom: 1.4rem;
+}
+.redeye-p {
+  font-size: 1.2rem;
+}
+
+.footer-logo {
+  width: 50rem;
+}
+.ticket-box-header-desktop > h2 {
+  font-size: xxx-large;
+}
+.ticket-box-header-desktop > h4 {
+  margin: 0.5rem;
+  font-size: 1.3rem;
+}
+.ticket-box-p-desktop {
+  margin-top: 0;
+}
+.ticket-box-buttons-wrapper-desktop { 
+  gap: 1.5rem; 
+}
+.dual-btn-wrapper {  
+  gap: 1.5rem;  
+  width: 80%;
+}
+.date-btn {
+  height: 4rem;
+
+}
+}

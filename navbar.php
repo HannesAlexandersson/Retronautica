@@ -1,9 +1,14 @@
 <nav class="nav-bar">
-    <a class="nav logo-a" href="#"><img class="logo" src="assets/logtype-small.png"/></a>
-    <a class="nav" href="#"><div class="nav-text tickets">Biljetter</div></a>
-    <a class="nav" href="#"><div class="nav-text trailers">Filmer och trailers</div></a>
-    <a class="nav" href="#"><div class="nav-text news">Nyheter</div></a>
-    <a class="nav" href="#"><div class="nav-text gifts">Presentkort</div></a>
-    <a class="nav" href="#"><div class="nav-text events">Event</div></a>
-    <a class="nav" href="#"><div class="nav-text retronater">Retronauterna</div></a>    
+    <div class="nav-logo">
+        <img src="assets/navbar-mobile/logo-mobile.svg" class="logo-navbar"/>
+    </div>    
+    <div class="search-burger-icons">
+        <div class="nav-search">
+            <img src="assets/navbar-mobile/search.png" />
+        </div>
+        <div class="nav-burger">
+            <img src="assets/navbar-mobile/burgermenu.png" />
+        </div>
+    </div>
 </nav>
+<script src="navbar-script.js"></script>

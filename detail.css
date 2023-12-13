@@ -1,0 +1,64 @@
+.detail-header {
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  color: var(--secondary-color);
+}
+
+.header-text {
+  text-align: center;
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.header-subtext {
+  margin: 0.1rem 2rem 1rem 2rem;
+  text-align: center;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.white-text {
+  text-align: center;
+  margin: 1rem 2rem 1rem 2rem;
+  color: var(--tertiary-color);
+  font-size: 0.65rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+/*redeye start*/
+.bg-redeye {
+  background-image: url(assets/ai-red-eye-half-image.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.redeye-textWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem 2rem 1rem 2rem;
+}
+.redeye-header {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 1rem;
+  font-style: normal;
+  line-height: normal;
+}
+.redeye-p {
+  text-align: center;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+/*redeye end*/
+

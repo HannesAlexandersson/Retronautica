@@ -111,13 +111,14 @@ a:hover {
   align-items: center;
   flex-direction: column;
   height: 100%;
-  width: 100%;
+  width: 100svw;
   position: relative;
   top: 4rem; 
 }
 
 .hero-image {
-  width: calc(100%);
+  width: 100%;
+  width: 100svw;
 }
 
 /*END HERO*/
